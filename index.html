@@ -727,6 +727,9 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
 .brand-mark { width: 40px; height: 40px; }
 .hero-logo { width: 88px; height: 88px; }
 .foot-logo { width: 72px; height: 72px; }
+.process-lead { text-align: center; max-width: 36ch; margin: 18px auto 0; font-size: 1.1rem; color: var(--ink); text-shadow: 0 1px 12px rgba(0,0,0,.5); }
+.process-cta { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 28px; }
+@media (min-width: 768px) { .process-cta { flex-direction: row; justify-content: center; } }
 </style>
 <noscript><style>.img-fade { opacity: 1; } .reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
@@ -884,27 +887,15 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
 
   <!-- Process -->
   <section class="section process ph" aria-labelledby="process-title">
-    <img class="process-bg img-fade" src="img/steps-water-800.webp" srcset="img/steps-water-800.webp 800w, img/steps-water-1200.webp 1200w, img/steps-water-1600.webp 1600w" sizes="(max-width: 767px) 220vw, 100vw" width="1600" height="1063" alt="" decoding="async" loading="lazy">
+    <img class="process-bg img-fade" src="img/steps-plants-800.webp" srcset="img/steps-plants-800.webp 800w, img/steps-plants-1200.webp 1200w, img/steps-plants-1600.webp 1600w" sizes="(max-width: 767px) 220vw, 100vw" width="1600" height="1067" alt="" decoding="async" loading="lazy">
     <div class="wrap">
-      <p class="process-eyebrow reveal">How it works</p>
-      <h2 id="process-title" class="reveal">Three simple steps</h2>
-      <ol class="process-list">
-        <li class="reveal">
-          <div class="p-ico"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg></div>
-          <h3>Call or message</h3>
-          <p>Tell us what plants or pieces you are looking for.</p>
-        </li>
-        <li class="reveal">
-          <div class="p-ico"><svg class="ico" aria-hidden="true"><use href="#i-clipboard-text"/></svg></div>
-          <h3>Check what we have</h3>
-          <p>We let you know what is available and what it costs.</p>
-        </li>
-        <li class="reveal">
-          <div class="p-ico"><svg class="ico" aria-hidden="true"><use href="#i-plant"/></svg></div>
-          <h3>Come and visit</h3>
-          <p>Visit the nursery and gardens in Menlo Park.</p>
-        </li>
-      </ol>
+      <p class="process-eyebrow reveal">Visit us</p>
+      <h2 id="process-title" class="reveal">Come and see the gardens</h2>
+      <p class="process-lead reveal">24 Lower Terrace Road, Menlo Park, Pretoria. Call or WhatsApp if you have a question.</p>
+      <div class="process-cta reveal">
+        <a class="btn btn-light" href="tel:+27813735015"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Call 081 373 5015</a>
+        <a class="btn btn-outline" href="#quote"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Send an enquiry</a>
+      </div>
     </div>
   </section>
 

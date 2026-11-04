@@ -19,4 +19,4 @@ The services are inferred from the listing's photos and reviews. It is a physica
 
 ## Images
 
-The four "In the gardens" photos and the "Gardens and garden art" card photo come from the client's Google listing. The logo is a placeholder. The "Visit" photo is also from the listing. The hero, "Plants and trees" card (nursery seedlings) and steps background are Pexels stock.
+The four "In the gardens" photos and the "Gardens and garden art" card photo come from the client's Google listing. The logo is a placeholder. The "Visit" photo is also from the listing. The hero, "Plants and trees" card (nursery seedlings) are Pexels stock.
