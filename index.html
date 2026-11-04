@@ -730,17 +730,16 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
 .process-lead { text-align: center; max-width: 36ch; margin: 18px auto 0; font-size: 1.1rem; color: var(--ink); text-shadow: 0 1px 12px rgba(0,0,0,.5); }
 .process-cta { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 28px; }
 @media (min-width: 768px) { .process-cta { flex-direction: row; justify-content: center; } }
-.greview { max-width: 560px; margin: 32px auto 0; padding: 20px 22px 22px; background: #fff; color: #202124; border-radius: 16px; box-shadow: var(--shadow); font-family: "Nunito Sans", Arial, sans-serif; }
+.greview { max-width: 560px; margin: 32px auto 0; padding: 20px 22px 22px; background: var(--paper-2); color: var(--ink); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); font-family: "Nunito Sans", Arial, sans-serif; }
 .gr-head { display: flex; align-items: center; gap: 12px; }
-.gr-avatar { flex: none; width: 44px; height: 44px; border-radius: 50%; background: #1a73e8; color: #fff; display: grid; place-items: center; font: 700 1.2rem/1 "Nunito Sans", Arial, sans-serif; }
+.gr-avatar { flex: none; width: 44px; height: 44px; border-radius: 50%; background: var(--leaf); color: var(--on-forest); display: grid; place-items: center; font: 700 1.2rem/1 "Nunito Sans", Arial, sans-serif; }
 .gr-who { display: grid; gap: 2px; min-width: 0; line-height: 1.3; }
-.gr-who b { font-size: 1rem; font-weight: 700; color: #202124; }
-.gr-who span { font-size: .85rem; color: #5f6368; }
-.gr-src { margin-left: auto; align-self: flex-start; font-size: .75rem; font-weight: 700; color: #5f6368; white-space: nowrap; }
+.gr-who b { font-size: 1rem; font-weight: 700; color: var(--ink); }
+.gr-who span { font-size: .85rem; color: var(--ink-soft); }
+.gr-src { margin-left: auto; align-self: flex-start; font-size: .75rem; font-weight: 700; color: var(--ink-soft); white-space: nowrap; }
 .gr-meta { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
 .gr-stars { color: #fbbc04; font-size: 1.2rem; letter-spacing: .08em; line-height: 1; }
-.gr-date { font-size: .85rem; color: #5f6368; }
-.gr-text { margin: 10px 0 0; font-size: 1.05rem; line-height: 1.55; color: #202124; text-align: left; }
+.gr-text { margin: 10px 0 0; font-size: 1.05rem; line-height: 1.55; color: var(--ink); text-align: left; }
 @media (max-width: 420px) { .gr-src { display: none; } }
 </style>
 <noscript><style>.img-fade { opacity: 1; } .reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
@@ -903,10 +902,10 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
       <article class="greview reveal" aria-label="Google review by Raymond De Kock">
         <div class="gr-head">
           <span class="gr-avatar" aria-hidden="true">R</span>
-          <div class="gr-who"><b>Raymond De Kock</b><span>Local Guide &middot; 524 reviews &middot; 509 photos</span></div>
+          <div class="gr-who"><b>Raymond De Kock</b><span>Local Guide</span></div>
           <span class="gr-src">Google review</span>
         </div>
-        <div class="gr-meta"><span class="gr-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="gr-date">Edited 4 years ago</span></div>
+        <div class="gr-meta"><span class="gr-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
         <p class="gr-text">Sunday lunch was great with beautiful art to enjoy in the gardens.</p>
       </article>
     </div>
