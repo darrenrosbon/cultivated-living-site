@@ -992,8 +992,8 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
                 <span class="err">Please choose a service.</span>
               </div>
               <div class="field full">
-                <label for="f-msg">Details (optional)</label>
-                <textarea id="f-msg" name="message" placeholder="Tell us what you are looking for."></textarea>
+                <label for="f-msg">Your question (optional)</label>
+                <textarea id="f-msg" name="message" placeholder="For example, what plants you are looking for or when you can visit."></textarea>
               </div>
               <div class="full">
                 <button class="btn btn-wa" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Send on WhatsApp</button>
@@ -1041,7 +1041,7 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
 <!-- Floating contact buttons -->
 <div class="fab-stack" role="group" aria-label="Quick contact">
   <a class="fab fab-call" href="tel:+27813735015" aria-label="Call us"><svg class="fab-ico" aria-hidden="true"><use href="#i-tb-phone"/></svg></a>
-  <a class="fab fab-wa" href="https://wa.me/27813735015?text=Hi%20Cultivated%20Living%20%F0%9F%91%8B%20I%20found%20your%20website%20and%20would%20like%20to%20know%20more.%20Could%20you%20help%3F%20Thank%20you%21" target="_blank" rel="noopener" aria-label="Message us on WhatsApp"><svg class="fab-ico" aria-hidden="true"><use href="#i-tb-wa"/></svg></a>
+  <a class="fab fab-wa" href="https://wa.me/27813735015?text=Hi%20Cultivated%20Living%20%F0%9F%91%8B%20I%20found%20your%20website%20and%20have%20a%20question%20about%20the%20nursery%20and%20gardens.%20Thank%20you%21" target="_blank" rel="noopener" aria-label="Message us on WhatsApp"><svg class="fab-ico" aria-hidden="true"><use href="#i-tb-wa"/></svg></a>
 </div>
 
 <script>
@@ -1317,19 +1317,19 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
     var picked = Array.prototype.map.call(document.getElementById("f-service").selectedOptions, function (o) { return o.text.toLowerCase(); });
     var need;
     if (picked.length === 1) {
-      need = picked[0] === "something else" ? "some information" : picked[0];
+      need = picked[0] === "something else" ? "your nursery and gardens" : picked[0];
     } else {
       picked = picked.map(function (t) { return t.replace(" and ", " & "); });
       need = picked.length === 2 ? picked[0] + " and " + picked[1] : picked.slice(0, -1).join(", ") + ", and " + picked[picked.length - 1];
     }
     var lines = [
-      "Hi Cultivated Living \u{1F44B} I found your website and would like to know more, please.",
+      "Hi Cultivated Living \u{1F44B} I found your website and have an enquiry about the nursery and gardens.",
       "",
       "Name: " + v("f-name"),
       "I am interested in: " + need
     ];
-    if (v("f-msg")) lines.push("More details: " + v("f-msg"));
-    lines.push("", "Thank you, I look forward to hearing from you!");
+    if (v("f-msg")) lines.push("My question: " + v("f-msg"));
+    lines.push("", "Thank you!");
     window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(lines.join("\n")), "_blank", "noopener");
   });
   form.addEventListener("input", function (e) {
