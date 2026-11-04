@@ -13,10 +13,10 @@ Live site (GitHub Pages): https://darrenrosbon.github.io/cultivated-living-site/
 
 ## To confirm with the client
 
-What the business actually offers (plants, trees, garden art, garden visits, food), opening hours (reviews disagree about Saturdays, so none are shown), services, areas, email, logo, newer photos.
+What the business actually offers (plants, trees, garden art, garden visits, food), opening hours (reviews disagree about Saturdays, so none are shown), services, email, logo, newer photos.
 Google shows only three reviews (3.7 stars), all from 4 to 6 years ago and one a complaint about opening hours, so no reviews are shown.
-The services and suburb list are inferred from the listing's photos and reviews.
+The services are inferred from the listing's photos and reviews. It is a physical location with no service areas, so only the address is shown.
 
 ## Images
 
-The four "In the gardens" photos come from the client's Google listing. The logo is a placeholder. Other photos (hero, service cards, steps background, "Visit" photo) are Pexels stock.
+The four "In the gardens" photos and the "Gardens and garden art" card photo come from the client's Google listing. The logo is a placeholder. The hero, "Plants and trees" card (nursery seedlings), steps background and "Visit" photo are Pexels stock.
