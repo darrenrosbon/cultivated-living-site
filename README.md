@@ -14,7 +14,7 @@ Live site (GitHub Pages): https://darrenrosbon.github.io/cultivated-living-site/
 ## To confirm with the client
 
 What the business actually offers (plants, trees, garden art, garden visits, food), opening hours (reviews disagree about Saturdays, so none are shown), services, email, logo, newer photos.
-Google shows only three reviews (3.7 stars), all from 4 to 6 years ago and one a complaint about opening hours, so no reviews are shown.
+Google shows only three reviews (3.7 stars), all from 4 to 6 years ago and one a complaint about opening hours, so only the 5-star review from Raymond De Kock is shown (supplied by the user).
 The services are inferred from the listing's photos and reviews. It is a physical location with no service areas, so only the address is shown.
 
 ## Images
